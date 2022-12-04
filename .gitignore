@@ -1,0 +1,35 @@
+# https://ddev-pull-wp.mandrasch.eu/
+# Ignore all ...
+/*
+
+# ... but track specific files / folders: 
+
+# General files
+!.gitignore
+!/README.md
+!/LICENSE
+!/.screenshot.png
+
+# DDEV config and provider script
+!/.ddev
+/.ddev/*
+!/.ddev/config.yaml
+!/.ddev/providers
+/.ddev/providers/*
+!/.ddev/providers/ssh.yaml
+!/.ddev/providers/backup.yaml
+
+# Child theme:
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/raft-child
+# vite output dir (compiled)
+/wp-content/themes/raft-child/dist
+
+# Vite & npm
+!/.ddev/.env
+!/vite.config.js
+!/package.json
+!/package-lock.json
