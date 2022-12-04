@@ -1,0 +1,14 @@
+{
+    "name": "acf/svelte-demo-block",
+    "title": "svelte-demo-block",
+    "description": "A custom svelte-demo-block block.",
+    "style": [ "file:./svelte-demo-block.css" ],
+    "category": "formatting",
+    "icon": "heart",
+    "keywords": ["svelte-demo-block"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "align": "full"
+}
