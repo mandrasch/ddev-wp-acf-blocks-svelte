@@ -9,12 +9,10 @@ Status: Work in progress 🧑‍🔧
 
 Made with
 
-- https://github.com/drud/ddev ([Discord](https://discord.gg/hCZFfAMc5k)
+- https://github.com/drud/ddev ([Discord](https://discord.gg/hCZFfAMc5k))
 - https://github.com/torenware/ddev-viteserve
 
-Inspired by [fgeierst/typo3-vite-demo](https://github.com/fgeierst/typo3-vite-demo). 
-
-See more experiments: https://my-ddev-lab.mandrasch.eu/
+Inspired by [fgeierst/typo3-vite-demo](https://github.com/fgeierst/typo3-vite-demo). See more experiments: https://my-ddev-lab.mandrasch.eu/
 
 **Local first time setup:**
 
