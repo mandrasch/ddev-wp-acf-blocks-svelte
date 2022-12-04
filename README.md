@@ -1,8 +1,9 @@
 # ddev-wp-acf-blocks-svelte
 
-![Screenshot block with svelte input binding](.screenshot.png?raw=true)
 
 [ACF Blocks](https://www.advancedcustomfields.com/resources/blocks/) meets Svelte + Vite 🧡
+
+![Screenshot block with svelte input binding](.screenshot.png?raw=true)
 
 Status: Work in progress 🧑‍🔧
 
