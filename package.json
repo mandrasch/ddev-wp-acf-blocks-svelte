@@ -1,0 +1,26 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "- `templates/` folder was copied over to child theme because of current bug https://github.com/WordPress/gutenberg/issues/44243",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandrasch/ddev-wp-acf-blocks-svelte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrasch/ddev-wp-acf-blocks-svelte/issues"
+  },
+  "homepage": "https://github.com/mandrasch/ddev-wp-acf-blocks-svelte#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "vite": "^3.2.4"
+  }
+}
