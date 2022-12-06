@@ -31,8 +31,9 @@ Use `define('WP_ENV','production);` or `define('WP_ENV','development');` in `wp-
 
 ## TODOs
 
-- [ ] Implement production mode (detect url, `.ddev.site === development`)
 - [ ] Render svelte blocks also in Gutenberg editor mode?
+- [ ] Watch [Jesse Skinner - Adding Svelte to your legacy projects
+](https://www.youtube.com/watch?v=uWxkaDdqfpI)
 
 ## Notes
 
@@ -64,3 +65,6 @@ ddev npm install --save-dev vite @sveltejs/vite-plugin-svelte
 # Added scripts-section to package.json & create vite.config.js
 ```
 
+## Thanks to
+
+- https://jimmyutterstrom.com/blog/2019/06/21/svelte-3-components-in-legacy-apps/
