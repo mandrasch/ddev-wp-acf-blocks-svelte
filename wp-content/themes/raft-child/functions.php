@@ -8,7 +8,7 @@ add_action('wp_enqueue_scripts', 'enqueue_child_theme_styles');
 
 add_action( 'init', 'register_acf_blocks' );
 function register_acf_blocks() {
-    register_block_type( __DIR__ . '/blocks/svelte-demo-block' );
+    register_block_type( __DIR__ . '/blocks/svelte-demo-block-one' );
     register_block_type( __DIR__ . '/blocks/svelte-demo-block-two' );
 }
 
@@ -17,9 +17,8 @@ function register_acf_blocks() {
 // https://wpdevelopment.courses/articles/how-to-add-javascript-to-wordpress/
 // https://developer.wordpress.org/reference/hooks/enqueue_block_assets/
 
-
-add_action('wp_footer', 'add_vite_development_server'); // frontend
-add_action('admin_footer', 'add_vite_development_server'); // backend
+add_action('wp_head', 'add_vite_development_server'); // frontend
+add_action('admin_head', 'add_vite_development_server'); // backend
 function add_vite_development_server()
 {
     // TODO: check if domain is .ddev.site (=> development)

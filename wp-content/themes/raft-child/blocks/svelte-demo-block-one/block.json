@@ -1,6 +1,6 @@
 {
     "name": "acf/svelte-demo-block",
-    "title": "svelte-demo-block",
+    "title": "Svelte Demo Block One",
     "description": "A custom svelte-demo-block block.",
     "style": [ "file:./svelte-demo-block.css" ],
     "category": "formatting",

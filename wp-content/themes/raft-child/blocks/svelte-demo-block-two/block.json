@@ -1,10 +1,10 @@
 {
     "name": "acf/svelte-demo-block-two",
-    "title": "svelte-demo-block-two",
+    "title": "Svelte Demo Block Two",
     "description": "A custom svelte-demo-block-two block.",
     "style": [ "file:./svelte-demo-block-two.css" ],
     "category": "formatting",
-    "icon": "heart",
+    "icon": "superhero",
     "keywords": ["svelte-demo-block-two"],
     "acf": {
         "mode": "preview",
