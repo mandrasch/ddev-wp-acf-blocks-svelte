@@ -27,6 +27,8 @@ Inspired by [fgeierst/typo3-vite-demo](https://github.com/fgeierst/typo3-vite-de
 
 - Run either `ddev vite-serve start` or `ddev npm run dev`
 
+Use `define('WP_ENV','production);` or `define('WP_ENV','development');` in `wp-config.php` to simulate the environment. The default is `development`. 
+
 ## TODOs
 
 - [ ] Implement production mode (detect url, `.ddev.site === development`)
