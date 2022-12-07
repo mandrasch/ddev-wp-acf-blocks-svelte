@@ -19,6 +19,14 @@
 !/.ddev/providers/ssh.yaml
 !/.ddev/providers/backup.yaml
 
+# vite serve files
+# TODO: how can we achieve this more robust? let ddev handle gitignore?
+!/.ddev/docker-compose.viteserve.yaml 
+!/.ddev/web-build/Dockerfile.ddev-viteserve 
+!/.ddev/viteserve
+!/.ddev/commands/web/vite-serve 
+
+
 # Child theme:
 !/wp-content
 /wp-content/*
