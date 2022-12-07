@@ -18,14 +18,18 @@ Inspired by [fgeierst/typo3-vite-demo](https://github.com/fgeierst/typo3-vite-de
 **Local first time setup:**
 
 1. `ddev start && ddev wp core download && ddev launch`
+1. `ddev npm install`
 1. Finish installation of WordPress in browser
 1. `ddev wp theme install raft && ddev wp theme activate raft-child`
-1. `ddev npm install`
-1. Use `ddev launch` to open `https://ddev-wp-acf-blocks-svelte.ddev.site/`
+1. Use `ddev launch wp-admin/` to open `https://ddev-wp-acf-blocks-svelte.ddev.site/wp-admin/`
+1. Important: Install and activate ACF Pro https://www.advancedcustomfields.com/pro/
+1. Add Svelte Block One to a page or post of your choice
+1. Run either `ddev npm run dev` or `ddev vite-serve start` for local dev
+
 
 **Local development**
 
-- Run either `ddev vite-serve start` or `ddev npm run dev`
+- Run either `ddev npm run dev` or `ddev vite-serve start`
 
 Use `define('WP_ENV','production');` or `define('WP_ENV','development');` in `wp-config.php` to simulate the environment. The default is `development`. 
 
