@@ -15,29 +15,37 @@ Made with
 
 Inspired by [fgeierst/typo3-vite-demo](https://github.com/fgeierst/typo3-vite-demo). See more experiments: https://my-ddev-lab.mandrasch.eu/
 
-**Local first time setup:**
-
-1. `ddev start && ddev wp core download && ddev launch`
-1. `ddev npm install`
-1. Finish installation of WordPress in browser
-1. `ddev wp theme install raft && ddev wp theme activate raft-child`
-1. Use `ddev launch wp-admin/` to open `https://ddev-wp-acf-blocks-svelte.ddev.site/wp-admin/`
-1. Important: Install and activate ACF Pro https://www.advancedcustomfields.com/pro/
-1. Add Svelte Block One to a page or post of your choice
-1. Run either `ddev npm run dev` or `ddev vite-serve start` for local dev
-
-
 **Local development**
 
 - Run either `ddev npm run dev` or `ddev vite-serve start`
 
 Use `define('WP_ENV','production');` or `define('WP_ENV','development');` in `wp-config.php` to simulate the environment. The default is `development`. 
 
+**Local first time setup:**
+
+```bash
+ddev start && \
+    ddev wp core download && \
+    ddev launch
+
+# Finish installation of WordPress in browser, afterwards:
+
+ddev wp theme install raft && \
+    ddev wp theme activate raft-child && \
+    ddev npm install
+```
+
+1. Use `ddev launch wp-admin/` to open `https://ddev-wp-acf-blocks-svelte.ddev.site/wp-admin/` 
+1. **Important**: Install and activate ACF Pro https://www.advancedcustomfields.com/pro/
+1. Add Svelte Block One to a page or post of your choice
+
+Now you can run either `ddev npm run dev` or `ddev vite-serve start` for local development.
+
 ## TODOs
 
 - [ ] Render svelte blocks also in Gutenberg editor mode?
 - [ ] Watch [Jesse Skinner - Adding Svelte to your legacy projects
-](https://www.youtube.com/watch?v=uWxkaDdqfpI)
+](https://www.youtube.com/watch?v=uWxkaDdqfpI) for hints
 
 ## Notes
 
